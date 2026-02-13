@@ -16,7 +16,7 @@ yesButton.addEventListener('click', () => {
     document.querySelector('.buttons').style.display = 'none';
     
     // Show the message
-    messageDisplay.innerHTML = "Yay! You've made me the happiest person ever! 💖🎉";
+    messageDisplay.innerHTML = "🎉💖YIPPIE💖🎉";
     
     // Show the GIF container (remove the 'hidden' class)
     gifContainer.classList.remove('hidden');
@@ -48,5 +48,5 @@ noButton.addEventListener('mouseenter', () => {
 });
 
 noButton.addEventListener('click', () => {
-    messageDisplay.innerHTML = "Nice try! But the 'Yes' button looks nicer, doesn't it? 😉";
+    messageDisplay.innerHTML = "Nooo💔";
 });
