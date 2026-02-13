@@ -48,5 +48,5 @@ noButton.addEventListener('mouseenter', () => {
 });
 
 noButton.addEventListener('click', () => {
-    messageDisplay.innerHTML = "Nooo💔";
+    messageDisplay.innerHTML = "Neeeee💔";
 });
