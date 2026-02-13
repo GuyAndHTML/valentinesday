@@ -16,7 +16,7 @@ yesButton.addEventListener('click', () => {
     document.querySelector('.buttons').style.display = 'none';
     
     // Show the message
-    messageDisplay.innerHTML = "🎉💖YIPPIE💖🎉";
+    messageDisplay.innerHTML = "";
     
     // Show the GIF container (remove the 'hidden' class)
     gifContainer.classList.remove('hidden');
